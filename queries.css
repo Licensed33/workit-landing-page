@@ -1,0 +1,301 @@
+@media (max-width: 768px) {
+  .hero {
+    height: 540px;
+  }
+
+  .header-nav {
+    font-size: 16px;
+    letter-spacing: -0.16px;
+  }
+
+  .heading-primary {
+    font-size: 60px;
+    line-height: 60px;
+    margin-top: 30px;
+  }
+
+  .hero-btn {
+    width: 133px;
+    height: 55px;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: -0.16px;
+    padding-top: 10px;
+    margin-top: 39px;
+  }
+
+  .hero-img {
+    width: 514px;
+    height: 296px;
+  }
+
+  .features {
+    flex-direction: column;
+    height: 920.725px;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 48px;
+    margin-top: -100px;
+    padding-bottom: 100px;
+  }
+
+  .feature {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 32px;
+    text-align: left;
+  }
+
+  .feature-number {
+    width: 48px;
+    height: 46px;
+    padding-top: 4px;
+    margin: 0;
+  }
+
+  .feature-title {
+    font-size: 28px;
+    line-height: 36px;
+  }
+
+  .feature-text {
+    width: 493px;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .left-element {
+    transform: translate(-65%, 35%);
+  }
+
+  .right-element {
+    transform: translate(-0.25%, 140%);
+  }
+
+  .cta {
+    padding-bottom: 0;
+  }
+
+  .cta-ctn {
+    margin: 0;
+    margin-right: 30px;
+  }
+
+  .cta-img {
+    width: 281px;
+    height: 281px;
+  }
+
+  .cta-textbox {
+    width: 500px;
+    height: 375px;
+    padding: 56px;
+
+    transform: translate(-8%, 70%);
+  }
+
+  .heading-secondary {
+    font-size: 48px;
+    line-height: 56px;
+    margin-bottom: 24px;
+  }
+
+  .cta-text {
+    font-size: 16px;
+    line-height: 28px;
+    margin-bottom: 24px;
+  }
+
+  .cta-btn {
+    width: 172px;
+    height: 55px;
+    font-size: 16px;
+    letter-spacing: -0.16px;
+    padding-top: 10px;
+  }
+
+  .textbox-element {
+    transform: translate(-25%, 40%);
+  }
+
+  .footer {
+    margin-top: 80px;
+  }
+
+  .footer-logo {
+    margin-top: 0;
+  }
+}
+
+@media (max-width: 375px) {
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .hero {
+    height: 481px;
+  }
+
+  .heading-primary {
+    font-size: 32px;
+    line-height: 50px;
+    margin-top: 64px;
+  }
+
+  .hero-btn {
+    margin-top: 40px;
+  }
+
+  .hero-img {
+    width: 320px;
+    height: 184px;
+    margin-top: 64px;
+  }
+
+  .left-element,
+  .right-element {
+    display: none;
+  }
+
+  .features {
+    height: 1070px;
+    gap: 40px;
+    margin-top: -20px;
+  }
+
+  .feature {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .feature-text {
+    width: 343px;
+  }
+
+  .cta {
+    text-align: center;
+  }
+
+  .cta-img {
+    margin-left: 23px;
+  }
+
+  .cta-textbox {
+    width: 343px;
+    padding: 24px;
+    text-align: center;
+
+    transform: translate(-7%, 90%);
+  }
+
+  .heading-secondary {
+    width: 280px;
+    font-size: 24px;
+    line-height: 48px;
+    margin-bottom: 16px;
+  }
+
+  .cta-text {
+    margin-bottom: 24px;
+  }
+
+  .textbox-element {
+    display: none;
+  }
+
+  .footer {
+    margin-top: 140px;
+  }
+
+  .footer-icons {
+    margin-bottom: 50px;
+  }
+}
+
+@media (max-width: 425px) {
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+  .hero {
+    height: 481px;
+  }
+
+  .heading-primary {
+    font-size: 32px;
+    line-height: 50px;
+    margin-top: 64px;
+  }
+
+  .hero-btn {
+    margin-top: 40px;
+  }
+
+  .hero-img {
+    width: 320px;
+    height: 184px;
+    margin-top: 64px;
+  }
+
+  .left-element,
+  .right-element {
+    display: none;
+  }
+
+  .features {
+    height: 1070px;
+    gap: 40px;
+    margin-top: -5px;
+  }
+
+  .feature {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+  }
+
+  .feature-text {
+    width: 343px;
+  }
+
+  .cta {
+    text-align: center;
+  }
+
+  .cta-img {
+    margin-left: 23px;
+  }
+
+  .cta-textbox {
+    width: 343px;
+    padding: 24px;
+    text-align: center;
+
+    transform: translate(-7%, 90%);
+  }
+
+  .heading-secondary {
+    width: 280px;
+    font-size: 24px;
+    line-height: 48px;
+    margin-bottom: 16px;
+  }
+
+  .cta-text {
+    margin-bottom: 24px;
+  }
+
+  .textbox-element {
+    display: none;
+  }
+
+  .footer {
+    margin-top: 140px;
+  }
+
+  .footer-icons {
+    margin-bottom: 50px;
+  }
+}

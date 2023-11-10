@@ -1,0 +1,255 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* font-family: "Manrope", "Fraunces", sans-serif, serif; */
+}
+
+.hero-container {
+  width: 100%;
+}
+
+.hero {
+  width: 100%;
+  height: 730px;
+  background-image: url(assets/images/Rectangle-hero.svg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  z-index: 99;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 3% 7%;
+  color: #fff;
+}
+
+.workit-logo {
+  width: 96px;
+  height: 25px;
+}
+
+.header-nav {
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.18px;
+  cursor: pointer;
+  font-family: Manrope;
+}
+
+.header-nav::after {
+  content: "";
+  height: 3px;
+  background: #44ffa1;
+  display: block;
+}
+
+.hero-main {
+  margin: auto;
+  text-align: center;
+}
+
+.heading-primary {
+  color: #fff;
+  font-size: 80px;
+  font-weight: 600;
+  line-height: 80px;
+  font-family: Fraunces 144pt;
+}
+
+.hero-btn {
+  text-decoration: none;
+  display: inline-block;
+  color: #24053e;
+  width: 160px;
+  height: 60px;
+  background: #44ffa1;
+  font-size: 18px;
+  font-weight: 700;
+  font-family: Manrope;
+  margin-top: 37px;
+  padding-top: 18px;
+}
+
+.highlight {
+  display: inline-block;
+}
+.highlight::after {
+  content: "";
+  display: block;
+  background-color: #44ffa1;
+  height: 3px;
+}
+
+.hero-img {
+  width: 767px;
+  height: 441px;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.hero-imgbox {
+  text-align: center;
+}
+
+.left-element {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translate(-45%, 50%);
+}
+
+.right-element {
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-10%, 160%);
+}
+
+.features {
+  width: 100%;
+  height: 960px;
+  margin-top: -250px;
+  background-image: url(assets/images/Rectangle-features.svg);
+  background-position: center;
+  background-size: cover;
+  /* position: absolute; */
+
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 26px;
+  padding: 170px 7%;
+}
+
+.feature {
+  text-align: center;
+}
+
+.feature-number {
+  width: 56px;
+  height: 56px;
+  border-radius: 30.5px;
+  border: 1px solid #584d62;
+  text-align: center;
+  color: #24053e;
+  font-family: Fraunces 144pt;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 40px;
+  padding-top: 7px;
+  margin-left: 149px;
+  margin-bottom: 56px;
+}
+
+.feature-title {
+  color: #24053e;
+  font-family: Fraunces 144pt;
+  font-size: 32px;
+  font-weight: 600;
+  line-height: 40px;
+  margin-bottom: 28px;
+}
+
+.feature-text {
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  color: #24053e;
+  width: 354px;
+}
+
+.cta {
+  width: 100%;
+  height: 650px;
+  padding: 110px 7%;
+  position: relative;
+}
+
+.cta-ctn {
+  margin-left: 30px;
+}
+
+.cta-img {
+  width: 477px;
+  height: 477px;
+}
+
+.cta-textbox {
+  width: 730px;
+  height: 413px;
+  background: #24053e;
+  padding: 64px;
+
+  position: absolute;
+  top: 0;
+  right: 0;
+  transform: translate(-18%, 68%);
+}
+
+.heading-secondary {
+  color: #fff;
+  font-family: Fraunces 144pt;
+  font-size: 56px;
+  font-weight: 600;
+  line-height: 64px;
+  margin-bottom: 32px;
+}
+
+.cta-text {
+  color: #fff;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 32px;
+  margin-bottom: 32px;
+}
+
+.cta-btn {
+  display: inline-block;
+  text-decoration: none;
+  width: 190px;
+  height: 61px;
+  background: #44ffa1;
+  color: #24053e;
+  text-align: center;
+  font-family: Manrope;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 32px;
+  letter-spacing: -0.18px;
+  padding-top: 14px;
+}
+
+.textbox-element {
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  transform: translate(-100%, 50%);
+}
+
+.footer {
+  /* background: #44ffa1; */
+  width: 100%;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.footer-logo {
+  margin-top: 100px;
+}
+
+.footer-icons {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin-top: 50px;
+  margin-bottom: 100px;
+}
